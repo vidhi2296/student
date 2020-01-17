@@ -15,6 +15,23 @@ public class Student {
     private int Id;
     private int age;
     private String email;
+    private String program;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getProgram() {
+        return program;
+    }
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
 
     public int getId() {
         return Id;
@@ -34,25 +51,7 @@ public class Student {
 
     public String getEmail() {
         return email;
-    }
-
-    /**
-     * Get the value of name
-     *
-     * @return the value of name
-     */
-    public void setEmail(String email) {    
-        this.email = email;
-    }
-
-    /**
-     * Set the value of name
-     *
-     * @param name new value of name
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
+    }   
 
 }
  
