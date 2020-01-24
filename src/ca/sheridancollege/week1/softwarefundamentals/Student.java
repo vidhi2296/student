@@ -7,6 +7,7 @@
  */
 package ca.sheridancollege.week1.softwarefundamentals;
 
+
 /**
  *
  * @author sidhu376
@@ -17,6 +18,7 @@ public class Student {
     private int Id;
     private int age;
     private String email;
+    private String status;  
 
     public int getId() {
         return Id;
@@ -37,7 +39,7 @@ public class Student {
     public String getEmail() {
         return email;
     }
-
+    
     /**
      * Get the value of name
      *
